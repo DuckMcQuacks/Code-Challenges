@@ -1,3 +1,6 @@
+// Link to problem
+// https://leetcode.com/problems/pascals-triangle-ii/description/
+
 function getRow(rowIndex: number): number[] {
     let output = new Array(rowIndex);
     for(let i = 0; i<rowIndex+1; i++){
