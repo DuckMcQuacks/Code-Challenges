@@ -7,7 +7,7 @@ type ReturnObj = {
     reset: () => number,
 }
 
-function createCounter(init: number): ReturnObj {
+function createCounter2(init: number): ReturnObj {
     let count = init
     
     function increment(){
